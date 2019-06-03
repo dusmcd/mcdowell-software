@@ -1,4 +1,35 @@
-html,
-body {
-  height: 100%;
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  background-image: url('https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  color: white;
+  padding: 30px;
+  height: 400px;
+}
+
+#right-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.page-links {
+  color: white;
+}
+
+.page-links:hover {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+#header {
+  position: absolute;
+  z-index: 1000;
+  width: 100%;
+  text-align: center;
+  top: 100px;
+  color: white;
 }
